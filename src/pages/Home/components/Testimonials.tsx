@@ -10,17 +10,17 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     name: 'Lerato M',
-    image: '/Images/image0.jpeg',
+    image: '/images/image0.jpeg',
     text: 'Before joining Raising Queens, I had no idea what I wanted to do after school. The mentorship program gave me confidence, taught me how to set goals, and reminded me that dreams are valid. Today, I\'m studying at university because of the encouragement I received from the amazing women at the foundation.'
   },
   {
     name: 'Nomsa D',
-    image: '/Images/image2.jpeg',
+    image: '/images/image2.jpeg',
     text: 'The foundation supported me at my lowest. They helped with food parcels and sanitary products when I couldn\'t afford them. But more than that, they gave me hope and a community where I feel like I belong.'
   },
   {
     name: 'Ayanda N',
-    image: '/Images/image1.jpeg',
+    image: '/images/image1.jpeg',
     text: 'Attending the \'Rise the Bar\' event was such a powerful experience. Being in a room full of strong, supportive women reminded me that I am not alone in my journey. I left feeling motivated to chase my goals with confidence.'
   }
 ];
