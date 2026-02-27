@@ -1,0 +1,29 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
+import ProgressBar from './components/ProgressBar/ProgressBar';
+import Home from './pages/Home/Home';
+import Events from './pages/Events/Events';
+import Gallery from './pages/Gallery/Gallery';
+import Donate from './pages/Donate/Donate';
+import BankDetails from './pages/BankDetails/BankDetails';
+import './App.css';
+
+function App() {
+  return (
+    <Router>
+      <div className="app">
+        <Header />
+        <ProgressBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/bank-details" element={<BankDetails />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
