@@ -61,7 +61,7 @@ const Testimonials = () => {
         <div className="testimonial-track" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {testimonials.map((testimonial, index) => (
             <div className="testimonial-box" key={index}>
-              <img src={testimonial.image} alt={testimonial.name} />
+              
               <p>{testimonial.text}</p>
               <h2>{testimonial.name}</h2>
             </div>
