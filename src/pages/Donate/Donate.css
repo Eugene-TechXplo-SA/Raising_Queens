@@ -76,6 +76,8 @@
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
 }
 
 .donation-card:hover {
@@ -111,6 +113,9 @@
 
 .card-body {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .card-body h3 {
@@ -156,6 +161,7 @@
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 20px;
+  margin-top: auto;
 }
 
 .info p {
