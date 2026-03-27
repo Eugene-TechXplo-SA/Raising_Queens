@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import Header from './components/Header/Header';
 import ProgressBar from './components/ProgressBar/ProgressBar';
 import Home from './pages/Home/Home';
@@ -8,10 +9,21 @@ import Donate from './pages/Donate/Donate';
 import BankDetails from './pages/BankDetails/BankDetails';
 import './App.css';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
       <div className="app">
+        <ScrollToTop />
         <Header />
         <ProgressBar />
         <Routes>
