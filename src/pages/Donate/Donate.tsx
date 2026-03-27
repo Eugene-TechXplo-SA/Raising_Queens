@@ -154,11 +154,11 @@ const Donate = () => {
         </div>
         <div className="stats-grid">
           <div className="stat">
-            <div className="stat-number">500+</div>
+            <div className="stat-number">1000+</div>
             <div className="stat-label">Women Supported</div>
           </div>
           <div className="stat">
-            <div className="stat-number">$25K</div>
+            <div className="stat-number">R25K</div>
             <div className="stat-label">Funds Raised</div>
           </div>
           <div className="stat">
