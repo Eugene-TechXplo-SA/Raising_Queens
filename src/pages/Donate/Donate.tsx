@@ -22,7 +22,7 @@ const donationOptions: DonationOption[] = [
     image: Sanitary,
     icon: 'fas fa-box',
     items: ['Feminine hygiene products', 'Personal care items', 'Healthcare essentials', 'Comfort care packages'],
-    dropoff: 'Community Center - 123 Main St'
+    dropoff: '47 Maple Drive, Kyalami, Johannesburg 1684'
   },
   {
     id: 'food',
@@ -31,7 +31,7 @@ const donationOptions: DonationOption[] = [
     image: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=1080',
     icon: 'fas fa-utensils',
     items: ['Non-perishable food items', 'Fresh produce vouchers', 'Baby formula and supplies', 'Meal preparation kits'],
-    dropoff: 'Local Food Bank - 456 Community Ave'
+    dropoff: '47 Maple Drive, Kyalami, Johannesburg 1684'
   },
   {
     id: 'education',
