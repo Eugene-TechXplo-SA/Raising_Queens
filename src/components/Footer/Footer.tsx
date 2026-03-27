@@ -70,10 +70,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="footer-bottom">
           <p>© 2025 Raising Queens. All rights reserved.</p>
-          <div className="footer-policies">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-          </div>
+          
         </div>
       </div>
     </footer>
