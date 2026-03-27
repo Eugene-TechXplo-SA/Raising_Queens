@@ -19,11 +19,11 @@ const BankDetails = () => {
           </div>
           <div className="detail">
             <span className="label">Bank Name</span>
-            <p className="value">Ubuntu National Bank</p>
+            <p className="value">First National Bank (FNB)</p>
           </div>
           <div className="detail">
             <span className="label">Account Number</span>
-            <p className="value">123 456 789 012</p>
+            <p className="value">62897621556</p>
           </div>
           <div className="detail">
             <span className="label">Branch Number</span>
