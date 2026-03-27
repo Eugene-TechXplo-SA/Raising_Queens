@@ -34,8 +34,8 @@ const About = () => {
               <span className="label">Pads Donated</span>
             </div>
             <div className="stat">
-              <span className="number">12</span>
-              <span className="label">Partnerships Formed</span>
+              <span className="number">15+</span>
+              <span className="label">Partnerships Annually</span>
             </div>
           </div>
         </div>
