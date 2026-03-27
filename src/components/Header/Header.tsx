@@ -34,7 +34,6 @@ const Header = () => {
           <Link to="/events" className={isActive('/events')}>Events</Link>
           <Link to="/gallery" className={isActive('/gallery')}>Gallery</Link>
           <Link to="/donate" className={isActive('/donate')}>Donate</Link>
-          <button className="donate-btn" onClick={handleDonate}>Donate</button>
         </nav>
 
         {/* Mobile Menu Button */}
