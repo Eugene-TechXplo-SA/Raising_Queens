@@ -26,8 +26,12 @@ const BankDetails = () => {
             <p className="value">62897621556</p>
           </div>
           <div className="detail">
-            <span className="label">SWIFT CODE</span>
+            <span className="label">Swift Code</span>
             <p className="value">FIRNZAJJ</p>
+          </div>
+          <div className="detail">
+            <span className="label">Account Type</span>
+            <p className="value">Cheque</p>
           </div>
           <div className="detail">
             <span className="label">Reference</span>
