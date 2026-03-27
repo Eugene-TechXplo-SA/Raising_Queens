@@ -166,8 +166,8 @@ const Donate = () => {
             <div className="stat-label">Events Hosted</div>
           </div>
           <div className="stat">
-            <div className="stat-number">20+</div>
-            <div className="stat-label">Partners</div>
+            <div className="stat-number">15+</div>
+            <div className="stat-label">Partners Annually</div>
           </div>
         </div>
       </section>
