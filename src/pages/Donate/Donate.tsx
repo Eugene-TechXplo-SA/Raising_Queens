@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import DonationModal from './components/DonationModal';
 import './Donate.css';
-import Sanitary from '../../../images/Sanitary_Products.png';
 interface DonationOption {
   id: string;
   title: string;
@@ -19,7 +18,7 @@ const donationOptions: DonationOption[] = [
     id: 'sanitary',
     title: 'Sanitary Drive',
     description: 'Help us provide essential hygiene products to women in need. Your donation supports dignity and health.',
-    image: Sanitary,
+    image: '/images/image0.jpeg',
     icon: 'fas fa-box',
     items: ['Feminine hygiene products', 'Personal care items', 'Healthcare essentials', 'Comfort care packages'],
     dropoff: '47 Maple Drive, Kyalami, Johannesburg 1684'
@@ -37,7 +36,7 @@ const donationOptions: DonationOption[] = [
     id: 'education',
     title: 'Education Fund',
     description: 'Invest in the future by supporting educational programs, scholarships, and learning resources.',
-    image: '/images/RQDonationEdu.jpg',
+    image: '/images/image1.jpeg',
     icon: 'fas fa-graduation-cap',
     items: ['Scholarship program funding', 'Workshop materials and supplies', 'Educational technology access', 'Professional development courses'],
     dropoff: 'Online donations preferred'
